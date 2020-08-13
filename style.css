@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #ECEEF1;
+}
+.navigation{
+display: flex;
+justify-content: flex-end;
+background-color: red;
+align-items: center;
+}
+.nav-paragraphs{
+ display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.nav-btn{
+height: 40px;
+background-color: #0077C5;
+margin-left: 10px;
+width:110px;
+border-radius: 10px;
+border: none;
+
+}
+.nav-btn strong{
+    background-color: #0077C5;
+    color: white;
+    font-weight: lighter;
+}
+.nav-btn i{
+    color: white;
+}
+.nav-paragraphs a{
+    text-decoration: none;
+}
+.padding{
+    padding: 30px;
+}
