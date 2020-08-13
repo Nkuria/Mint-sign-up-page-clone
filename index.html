@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mint Sign Up</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/16d2250538.js" crossorigin="anonymous"></script>
     </head>
 <body>
     <!--Navigation bar-->
-    <div class="navigation padding">
+    <div class="navigation">
         <div class="nav-paragraphs"> 
             <div>Already have an Intuit account?</div>
            <a href="#">I forgot my user ID or Password </a> 
@@ -22,7 +23,7 @@
     <main>
     <!--Logos-->
         <div class="logos">
-            <img src="images/intuit.png" alt="intuit"> <br>
+            <img src="images/intuit.png" alt="intuit"><br>
             <img src="images/logo.PNG" alt="logo">
         </div>
     <!--End of logos-->
@@ -40,13 +41,16 @@
             <div>
                 <label class="spacing" for="phone">Phone (Recommended)</label>
                 <input id="phone" type="tel">
-                <p class = "spacing">Standard call, messaging or data rates may apply</p>
+                <p class = "sizing spacing">Standard call, messaging or data rates may apply</p>
             </div>
-            <div>
+            <div class="last">
                 <label class="spacing" for="password">Password</label>
                 <input id="password" type="password">
                 <i class="fas fa-lock-open"></i>
             </div>
+            <button class="nav-btn create">
+                <i class="fas fa-lock"></i> <strong> Create Account </strong>
+            </button>
         </form>
 
     </section>
