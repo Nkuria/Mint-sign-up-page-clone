@@ -6,6 +6,8 @@
 body{
     background-color: #ECEEF1;
 }
+/*Navbar*/
+
 .navigation{
 display: flex;
 justify-content: flex-end;
@@ -40,4 +42,19 @@ border: none;
 }
 .padding{
     padding: 30px;
+}
+
+/*Logos*/
+.logos{
+    text-align: center;
+}
+
+img[src="images/intuit.png"]{
+    width: 150px;
+    height: 120px;
+}
+
+.nested-logos img{
+    height: 30px;
+    width: 30px;
 }
