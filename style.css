@@ -6,8 +6,12 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: #ECEEF1;
 }
-/*Navbar*/
 
+button:hover{
+    cursor: pointer;
+}
+
+/*Navbar*/
 .navigation{
 display: flex;
 justify-content: flex-end;
@@ -28,7 +32,6 @@ margin-left: 10px;
 width:90px;
 border-radius: 10px;
 border: none;
-
 }
 .nav-btn strong{
     background-color: #0077C5;
@@ -108,7 +111,7 @@ form div{
 .last i{
     position: absolute;
     right: 60px;
-    top: 35px;
+    top: 39px;
 }
 
 .sizing{
@@ -129,6 +132,8 @@ form div{
     background-color: #ECEEF1;
     padding: 20px;
 }
+
+/*footer*/
 .footer-links{
     text-align: center;
 
@@ -143,4 +148,17 @@ footer p{
     width:70%;
     margin: 0 auto;
     padding-bottom: 20px;
+}
+
+.privacy-button{
+    position: sticky;
+    bottom: 0;
+    height: 40px;
+    background-color: #6B6C72;
+    margin-left: 10px;
+    width:120px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 85%;
 }
