@@ -11,7 +11,6 @@ body{
 .navigation{
 display: flex;
 justify-content: flex-end;
-background-color: red;
 align-items: center;
 }
 .nav-paragraphs{
@@ -47,6 +46,7 @@ border: none;
 /*Logos*/
 .logos{
     text-align: center;
+    background-color: red;
 }
 
 img[src="images/intuit.png"]{
@@ -57,4 +57,33 @@ img[src="images/intuit.png"]{
 .nested-logos img{
     height: 30px;
     width: 30px;
+}
+
+.form{
+    width:35%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin: 10px auto;
+}
+.form a{
+    text-decoration: none;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+   
+}
+form div{
+    padding-bottom: 20px;
+}
+.spacing{
+    text-align: left;
+    margin-left: 50px;
 }
