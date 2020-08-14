@@ -1,31 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     background-color: #ECEEF1;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
 /*Navbar*/
-.navigation{
+.navigation {
 display: flex;
 justify-content: flex-end;
 align-items: center;
 padding-top: 10px;
 padding-right: 20px;
 }
-.nav-paragraphs{
+.nav-paragraphs {
  display: flex;
 flex-direction: column;
 align-items: center;
 
 }
-.nav-btn{
+.nav-btn {
 height: 40px;
 background-color: #0077C5;
 margin-left: 10px;
@@ -33,58 +33,58 @@ width:90px;
 border-radius: 10px;
 border: none;
 }
-.nav-btn strong{
+.nav-btn strong {
     background-color: #0077C5;
     color: white;
     font-weight: lighter;
 }
-.nav-btn i{
+.nav-btn i {
     color: white;
 }
-.nav-paragraphs a{
+.nav-paragraphs a {
     text-decoration: none;
 }
-.padding{
+.padding {
     padding: 30px;
 }
 
 /*Logos*/
-.logos{
+.logos {
     text-align: center;
 }
 
-img[src="images/intuit.png"]{
+img[src="images/intuit.png"] {
     width: 150px;
     height: 120px;
 }
 
-.nested-logos img{
+.nested-logos img {
     height: 30px;
     width: 30px;
 }
 
 /*form*/
-.form{
+.form {
     width:35%;
     text-align: center;
     background-color: white;
     border: 1px solid lightgray;
     margin: 10px auto;
 }
-.form a{
+.form a {
     text-decoration: none;
 }
 
-.form h3{
+.form h3 {
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
-label{
+label {
     display: block;
     margin-bottom: 8px;
 }
-input{
+input {
     width: 80%;
     height: 35px;
     border-radius: 5px;
@@ -92,65 +92,65 @@ input{
    
 }
 
-form{
+form {
     margin-top: 30px;
 }
 
-form div{
+form div {
     padding-bottom: 20px;
 }
-.spacing{
+.spacing {
     text-align: left;
     margin-left: 50px;
 }
 
-.last{
+.last {
     position: relative;
 }
 
-.last i{
+.last i {
     position: absolute;
     right: 60px;
     top: 39px;
 }
 
-.sizing{
+.sizing {
     font-size: smaller;
 }
 
-.create{
+.create {
     width: 80%;
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.italics{
+.italics {
     font-style:italic;
     margin-bottom: 30px;
     
 }
-.captcha{
+.captcha {
     background-color: #ECEEF1;
     padding: 20px;
 }
 
 /*footer*/
-.footer-links{
+.footer-links {
     text-align: center;
 
 }
-.footer-links a{
+.footer-links a {
     padding: 10px;
     color: black;
     text-decoration: none;
 }
-footer p{
+footer p {
     text-align: center;
     width:70%;
     margin: 0 auto;
     padding-bottom: 20px;
 }
 
-.privacy-button{
+.privacy-button {
     position: sticky;
     bottom: 0;
     height: 40px;
