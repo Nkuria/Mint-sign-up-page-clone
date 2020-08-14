@@ -12,7 +12,7 @@ button:hover {
   cursor: pointer;
 }
 
- /*Navbar*/ 
+/* Navbar */ 
 
 .navigation {
   display: flex;
@@ -55,7 +55,7 @@ button:hover {
   padding: 30px;
 }
 
- /*Logos*/ 
+/* Logos */
 
 .logos {
   text-align: center;
@@ -71,7 +71,7 @@ img[src="images/intuit.png"] {
   width: 30px;
 }
 
- /*form*/ 
+/* form */ 
 
 .form {
   width: 35%;
@@ -138,7 +138,8 @@ form div {
 
 .italics {
   font-style: italic;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
+
 }
 
 .captcha {
@@ -146,7 +147,7 @@ form div {
   padding: 20px;
 }
 
- /*footer*/ 
+/* footer */
 
 .footer-links {
   text-align: center;
