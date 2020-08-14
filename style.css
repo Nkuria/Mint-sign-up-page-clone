@@ -1,164 +1,174 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #ECEEF1;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ECEEF1;
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /*Navbar*/
 .navigation {
-display: flex;
-justify-content: flex-end;
-align-items: center;
-padding-top: 10px;
-padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 20px;
 }
-.nav-paragraphs {
- display: flex;
-flex-direction: column;
-align-items: center;
 
+.nav-paragraphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .nav-btn {
-height: 40px;
-background-color: #0077C5;
-margin-left: 10px;
-width:90px;
-border-radius: 10px;
-border: none;
+  height: 40px;
+  background-color: #0077C5;
+  margin-left: 10px;
+  width:90px;
+  border-radius: 10px;
+  border: none;
 }
+
 .nav-btn strong {
-    background-color: #0077C5;
-    color: white;
-    font-weight: lighter;
+  background-color: #0077C5;
+  color: white;
+  font-weight: lighter;
 }
+
 .nav-btn i {
-    color: white;
+  color: white;
 }
+
 .nav-paragraphs a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 .padding {
-    padding: 30px;
+  padding: 30px;
 }
 
 /*Logos*/
 .logos {
-    text-align: center;
+  text-align: center;
 }
 
 img[src="images/intuit.png"] {
-    width: 150px;
-    height: 120px;
+  width: 150px;
+  height: 120px;
 }
 
 .nested-logos img {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 /*form*/
 .form {
-    width:35%;
-    text-align: center;
-    background-color: white;
-    border: 1px solid lightgray;
-    margin: 10px auto;
+  width:35%;
+  text-align: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin: 10px auto;
 }
+
 .form a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .form h3 {
-    margin-top: 40px;
-    margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 label {
-    display: block;
-    margin-bottom: 8px;
+  display: block;
+  margin-bottom: 8px;
 }
+
 input {
-    width: 80%;
-    height: 35px;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-   
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid lightgray; 
 }
 
 form {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 form div {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
+
 .spacing {
-    text-align: left;
-    margin-left: 50px;
+  text-align: left;
+  margin-left: 50px;
 }
 
 .last {
-    position: relative;
+  position: relative;
 }
 
 .last i {
-    position: absolute;
-    right: 60px;
-    top: 39px;
+  position: absolute;
+  right: 60px;
+  top: 39px;
 }
 
 .sizing {
-    font-size: smaller;
+  font-size: smaller;
 }
 
 .create {
-    width: 80%;
-    border-radius: 5px;
-    margin-bottom: 20px;
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
+
 .italics {
-    font-style:italic;
-    margin-bottom: 30px;
-    
+  font-style:italic;
+  margin-bottom: 30px;  
 }
+
 .captcha {
-    background-color: #ECEEF1;
-    padding: 20px;
+  background-color: #ECEEF1;
+  padding: 20px;
 }
 
 /*footer*/
 .footer-links {
-    text-align: center;
+  text-align: center;
+}
 
-}
 .footer-links a {
-    padding: 10px;
-    color: black;
-    text-decoration: none;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
 }
+
 footer p {
-    text-align: center;
-    width:70%;
-    margin: 0 auto;
-    padding-bottom: 20px;
+  text-align: center;
+  width:70%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .privacy-button {
-    position: sticky;
-    bottom: 0;
-    height: 40px;
-    background-color: #6B6C72;
-    margin-left: 10px;
-    width:120px;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    margin-left: 85%;
+  position: sticky;
+  bottom: 0;
+  height: 40px;
+  background-color: #6B6C72;
+  margin-left: 10px;
+  width:120px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-left: 85%;
 }
