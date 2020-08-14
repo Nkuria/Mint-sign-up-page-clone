@@ -12,7 +12,7 @@ button:hover {
   cursor: pointer;
 }
 
-/*Navbar*/
+ /*Navbar*/ 
 
 .navigation {
   display: flex;
@@ -32,7 +32,7 @@ button:hover {
   height: 40px;
   background-color: #0077c5;
   margin-left: 10px;
-  width:90px;
+  width: 90px;
   border-radius: 10px;
   border: none;
 }
@@ -55,7 +55,7 @@ button:hover {
   padding: 30px;
 }
 
-/*Logos*/
+ /*Logos*/ 
 
 .logos {
   text-align: center;
@@ -71,10 +71,10 @@ img[src="images/intuit.png"] {
   width: 30px;
 }
 
-/*form*/
+ /*form*/ 
 
 .form {
-  width:35%;
+  width: 35%;
   text-align: center;
   background-color: white;
   border: 1px solid lightgray;
@@ -100,6 +100,7 @@ input {
   height: 35px;
   border-radius: 5px;
   border: 1px solid lightgray; 
+
 }
 
 form {
@@ -136,7 +137,7 @@ form div {
 }
 
 .italics {
-  font-style:italic;
+  font-style: italic;
   margin-bottom: 30px;  
 }
 
@@ -145,7 +146,7 @@ form div {
   padding: 20px;
 }
 
-/*footer*/
+ /*footer*/ 
 
 .footer-links {
   text-align: center;
@@ -159,7 +160,7 @@ form div {
 
 footer p {
   text-align: center;
-  width:70%;
+  width: 70%;
   margin: 0 auto;
   padding-bottom: 20px;
 }
@@ -169,7 +170,7 @@ footer p {
   bottom: 0;
   height: 40px;
   background-color: #6b6c72;
-  width:120px;
+  width: 120px;
   border-radius: 5px;
   border: none;
   color: white;
