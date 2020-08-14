@@ -16,18 +16,21 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Ntwali Heritier**
 
 - Github: [@githubhandle](https://github.com/NtwaliHeritier)
 - Twitter: [@twitterhandle](https://twitter.com/NtwaliHeritier)
 - Linkedin: [linkedin](https://linkedin.com/in/ntwali-heritier-9950001a2)
 
-👤 **Author2**
+👤 **Nick Kuria**
 
 - Github: [@githubhandle](https://github.com/Nkuria)
 - Twitter: [@twitterhandle](https://twitter.com/Nkuria3)
 - Linkedin: [linkedin](https://linkedin.com/in/nick-kuria-a148931a9)
 
+## Live Link
+
+- https://raw.githack.com/Nkuria/Mint-sign-up-page-clone/feature-1/index.html
 
 ## Show your support
 
