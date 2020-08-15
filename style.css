@@ -62,7 +62,6 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 img[src="images/intuit.png"] {
@@ -72,7 +71,7 @@ img[src="images/intuit.png"] {
 
 .logos-size {
   height: 30px;
-  width:30px;
+  width: 30px;
 }
 
 .logo-img {
