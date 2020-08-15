@@ -58,7 +58,11 @@ button:hover {
 /* Logos */
 
 .logos {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 img[src="images/intuit.png"] {
@@ -66,9 +70,21 @@ img[src="images/intuit.png"] {
   height: 120px;
 }
 
-.nested-logos img {
+.logos-size {
   height: 30px;
-  width: 30px;
+  width:30px;
+}
+
+.logo-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.logo-flex {
+  display: flex;
+  align-items: flex-start;
 }
 
 /* form */
@@ -126,7 +142,11 @@ form div {
 }
 
 .sizing {
-  font-size: smaller;
+  font-size: 10px;
+}
+
+#phone {
+  margin-bottom: 7px;
 }
 
 .create {
