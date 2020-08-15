@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #eceef1;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Navbar */
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.nav-paragraphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-btn {
+  height: 40px;
+  background-color: #0077c5;
+  margin-left: 10px;
+  width: 90px;
+  border-radius: 10px;
+  border: none;
+}
+
+.nav-btn strong {
+  background-color: #0077c5;
+  color: white;
+  font-weight: lighter;
+}
+
+.nav-btn i {
+  color: white;
+}
+
+.nav-paragraphs a {
+  text-decoration: none;
+}
+
+.padding {
+  padding: 30px;
+}
+
+/* Logos */
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img[src="images/intuit.png"] {
+  width: 150px;
+  height: 120px;
+}
+
+.logos-size {
+  height: 30px;
+  width: 30px;
+}
+
+.logo-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.logo-flex {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* form */
+
+.form {
+  width: 35%;
+  text-align: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin: 10px auto;
+}
+
+.form a {
+  text-decoration: none;
+}
+
+.form h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form div {
+  padding-bottom: 20px;
+}
+
+.spacing {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.last {
+  position: relative;
+}
+
+.last i {
+  position: absolute;
+  right: 60px;
+  top: 39px;
+}
+
+.sizing {
+  font-size: 10px;
+}
+
+#phone {
+  margin-bottom: 7px;
+}
+
+.create {
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.italics {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.captcha {
+  background-color: #eceef1;
+  padding: 20px;
+}
+
+/* footer */
+
+.footer-links {
+  text-align: center;
+}
+
+.footer-links a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.privacy-button {
+  position: sticky;
+  bottom: 0;
+  height: 40px;
+  background-color: #6b6c72;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-left: 85%;
+}
